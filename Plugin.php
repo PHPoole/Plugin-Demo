@@ -10,7 +10,7 @@ Class Demo extends PHPoole_Plugin
         $params = $e->getParams();
         $this->debug($event, $params, 'IN');
         // demo
-        echo '[PLUGIN] preInit event demo';
+        echo "[PLUGIN] preInit event demo\n";
         //
         $this->debug($event, $params, 'OUT');
         return $params;
