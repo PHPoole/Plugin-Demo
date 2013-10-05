@@ -8,5 +8,8 @@
         "php": ">=5.3",
         "Narno/PHPoole": "self.version",
         "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "Demo"
     }
 }
