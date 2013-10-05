@@ -1,6 +1,8 @@
 <?php
-
-Class Plugin extends PHPoole_Plugin
+/**
+ * PHPoole plugin Demo
+ */
+Class Demo extends PHPoole_Plugin
 {
     public function preInit($e)
     {
@@ -9,6 +11,7 @@ Class Plugin extends PHPoole_Plugin
         $this->debug($event, $params, 'IN');
         // demo
         echo '[PLUGIN] preInit event demo';
+        //
         $this->debug($event, $params, 'OUT');
         return $params;
     }
