@@ -1,11 +1,12 @@
 {
     "name": "PHPoole/Plugin-Demo",
+    "type": "symfony1-plugin",
     "description": "PHPoole Demo plugin",
     "keywords": ["phpoole", "plugin", "demo"],
     "license": "MIT",
     "require": {
         "php": ">=5.3",
         "Narno/PHPoole": "self.version"
-    },
-    "target-dir": "Plugin/Demo"
+        "composer/installers": "~1.0"
+    }
 }
