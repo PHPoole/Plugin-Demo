@@ -1,6 +1,6 @@
 <?php
 /**
- * PHPoole plugin Demo
+ * PHPoole demo plugin
  */
 Class Demo extends PHPoole_Plugin
 {
@@ -11,8 +11,20 @@ Class Demo extends PHPoole_Plugin
         $event  = $e->getName();
         $params = $e->getParams();
         $this->trace(self::DEBUG, $event, $params, 'IN');
-        // demo
+        //
         echo "[DEMO] preInit event\n";
+        //
+        $this->trace(self::DEBUG, $event, $params, 'OUT');
+        return $params;
+    }
+
+    public function postInit($e)
+    {
+        $event  = $e->getName();
+        $params = $e->getParams();
+        $this->trace(self::DEBUG, $event, $params, 'IN');
+        //
+        echo "[DEMO] postInit event\n";
         //
         $this->trace(self::DEBUG, $event, $params, 'OUT');
         return $params;
