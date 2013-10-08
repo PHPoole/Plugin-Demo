@@ -8,25 +8,17 @@ Class Demo extends PHPoole_Plugin
 
     public function preInit($e)
     {
-        $event  = $e->getName();
-        $params = $e->getParams();
-        $this->trace(self::DEBUG, $event, $params, 'IN');
-        //
+        $phpoole = $e->getTarget();
         echo "[DEMO] preInit event\n";
         //
-        $this->trace(self::DEBUG, $event, $params, 'OUT');
-        return $params;
+        $this->trace(self::DEBUG, $e);
     }
 
     public function postInit($e)
     {
-        $event  = $e->getName();
-        $params = $e->getParams();
-        $this->trace(self::DEBUG, $event, $params, 'IN');
-        //
+        $phpoole = $e->getTarget();
         echo "[DEMO] postInit event\n";
         //
-        $this->trace(self::DEBUG, $event, $params, 'OUT');
-        return $params;
+        $this->trace(self::DEBUG, $e);
     }
 }
