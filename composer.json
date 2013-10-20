@@ -1,8 +1,8 @@
 {
-    "name": "PHPoole/Plugin-Demo",
+    "name": "PHPoole/Plugin-Sample",
     "type": "symfony1-plugin",
-    "description": "PHPoole Demo plugin",
-    "keywords": ["phpoole", "plugin", "demo"],
+    "description": "PHPoole sample plugin",
+    "keywords": ["phpoole", "plugin", "sample"],
     "license": "MIT",
     "require": {
         "php": ">=5.3",
@@ -10,6 +10,6 @@
         "composer/installers": "~1.0"
     },
     "extra": {
-        "installer-name": "Demo"
+        "installer-name": "Sample"
     }
 }
