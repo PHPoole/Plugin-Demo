@@ -1,8 +1,10 @@
 <?php
+namespace PHPoole;
+
 /**
- * PHPoole demo plugin
+ * PHPoole sample plugin
  */
-Class Demo extends PHPoole_Plugin
+Class Sample extends Plugin
 {
     const DEBUG = true;
 
