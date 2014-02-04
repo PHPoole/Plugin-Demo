@@ -1,12 +1,11 @@
 {
-    "name": "PHPoole/Plugin-Sample",
+    "name": "phpoole/plugin-sample",
     "type": "symfony1-plugin",
     "description": "PHPoole sample plugin",
     "keywords": ["phpoole", "plugin", "sample"],
     "license": "MIT",
     "require": {
         "php": ">=5.3",
-        "Narno/PHPoole": "self.version",
         "composer/installers": "~1.0"
     },
     "extra": {
