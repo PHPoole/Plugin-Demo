@@ -7,7 +7,7 @@ Add this to your PHPoole ```composer.json``` file:
 
     {
       "require": {
-        "PHPoole/Plugin-Demo": "master-dev"
+        "phpoole/plugin-demo": "master-dev"
       },
       "repositories": [
         {
