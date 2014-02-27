@@ -12,7 +12,7 @@ Add this to your PHPoole ```composer.json``` file:
       "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/PHPoole/Plugin-Demo"
+          "url": "https://github.com/PHPoole/plugin-Demo"
         }
       ]
     }
@@ -20,4 +20,4 @@ Add this to your PHPoole ```composer.json``` file:
 Usage
 -----
 
-Run a new website ```--init``` and read the console.
+Run a new website and read the console.
