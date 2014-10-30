@@ -1,4 +1,4 @@
-[PHPoole](http://github.com/Narno/PHPoole/) demo plugin.
+[PHPoole](http://phpoole.narno.org) demo plugin.
 
 Installation
 ------------
