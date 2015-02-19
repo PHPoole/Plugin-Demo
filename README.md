@@ -4,18 +4,19 @@ Installation
 ------------
 
 Add this to your PHPoole ```composer.json``` file:
-
+```json
+{
+  "require": {
+    "phpoole/plugin-demo": "master-dev"
+  },
+  "repositories": [
     {
-      "require": {
-        "phpoole/plugin-demo": "master-dev"
-      },
-      "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/PHPoole/plugin-Demo"
-        }
-      ]
+      "type": "vcs",
+      "url": "https://github.com/PHPoole/plugin-Demo"
     }
+  ]
+}
+```
 
 Usage
 -----
